@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="From"
+        android:text="@string/from_sp_text"
         app:layout_constraintStart_toStartOf="@+id/fromCurrencySpinner"
         app:layout_constraintTop_toBottomOf="@id/guideline" />
 
@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="To"
+        android:text="@string/to_sp_text"
         app:layout_constraintStart_toStartOf="@+id/toCurrencySpinner"
         app:layout_constraintTop_toBottomOf="@id/guideline" />
 
@@ -44,7 +44,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:hint="Amount"
+        android:hint="@string/amount_hint_text"
         app:layout_constraintBottom_toBottomOf="@+id/fromCurrencySpinner"
         app:layout_constraintEnd_toStartOf="@+id/fromCurrencySpinner"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,7 +87,7 @@
         android:id="@+id/convertButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Convert"
+        android:text="@string/convert_text_button"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toCurrencySpinner" />
