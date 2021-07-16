@@ -1,4 +1,4 @@
-package com.lucascabral.conversordemoeda
+package com.lucascabral.conversordemoeda.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
